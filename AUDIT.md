@@ -22,4 +22,4 @@ The copied files are `client.go`, `types.go`, `retry.go`, `errors.go`, and `verc
 
 `go test ./...`, `go test -race ./...`, and `go vet ./...` passed for this fork using Go 1.27.1. The tests cover request serialization, all three answer kinds, response validation, model listing, retries, cancellation, errors, configuration, concurrency, redirect blocking, and response size limits. This is code and local protocol verification, not a production integration test or a security certification.
 
-Before calling a release fully integrated, run one read-only authenticated smoke request with an authorized test key. Pin this audited commit in consumers until subsequent versions are reviewed.
+Publication is pending because the current GitHub CLI token cannot create a repository under `RyanJarv`. After repository creation, run one read-only authenticated smoke request with an authorized test key before calling a release fully integrated. Pin this audited commit in consumers until subsequent versions are reviewed.
