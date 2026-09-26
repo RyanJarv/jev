@@ -1,6 +1,6 @@
 # Source selection and security audit
 
-Reviewed 2026-09-26. The HTTP contract was checked against TypeSafe's [API reference](https://docs.typesafe.ai/api), [official JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js/tree/66880cc), and [official Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python/tree/0ffd094). Repository metadata was read with `gh api`; source was cloned at the commits below. Stars are context, not evidence of code safety. Every candidate was created in September 2026, so none has a long maintenance record.
+Reviewed 2026-09-26. The HTTP contract was checked against TypeSafe's [API reference](https://docs.typesafe.ai/api), [official JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js/tree/66880cc), and [official Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python/tree/0ffd094). Repository and maintainer metadata was read with `gh api`; source was cloned at the commits below. The selected maintainer's GitHub account dates to 2013 and has 65 public repositories; that is a limited continuity signal, not proof of safe code or future maintenance. `mattn` has a much larger established profile, but the reviewed SDK has the transport risks noted below. Stars are context, not evidence of code safety. Every candidate repository was created in September 2026, so none has a long maintenance record.
 
 | Candidate | Reviewed commit | Go minimum | Dependencies | Evidence and decision |
 | --- | --- | --- | --- | --- |
