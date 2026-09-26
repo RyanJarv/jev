@@ -1,6 +1,6 @@
 # Jev Go SDK
 
-Go client for TypeSafe AI's System One API. This is an independently audited source fork of [`Stumble/jev-go`](https://github.com/Stumble/jev-go/tree/a475dc925ba68602be93f4478e1381cf5ec27ee4). It is not an official TypeSafe AI release. The `github.com/RyanJarv/jev` module path is reserved for publication; the repository has not been created yet.
+Go client for TypeSafe AI's System One API. This is an independently audited fork of [`Stumble/jev-go`](https://github.com/Stumble/jev-go/tree/a475dc925ba68602be93f4478e1381cf5ec27ee4). It is not an official TypeSafe AI release.
 
 The SDK supports Noul, Choice, and Score questions, batched requests, model listing, bounded HTTP responses, context cancellation, retries, and structured API errors. It also supports the Vercel AI Gateway evaluation dialect. It has no third-party Go dependencies and requires Go 1.22 or newer.
 

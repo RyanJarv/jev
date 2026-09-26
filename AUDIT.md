@@ -24,4 +24,4 @@ The copied files are `client.go`, `types.go`, `retry.go`, `errors.go`, and `verc
 
 With a locally supplied, ignored token, `GET /v1/models` returned two models and a live batched `POST /v1/systemone` returned valid Noul, Choice, and Score answers from `jev-1.13.0`, with a request ID. The small smoke request exercised the direct API only. This is not a security certification or exhaustive production test.
 
-Publication is pending because the current GitHub CLI token cannot create a repository under `RyanJarv`. Pin this audited commit in consumers until subsequent versions are reviewed.
+This repository is a GitHub fork of `Stumble/jev-go`. Its upstream history is retained as a parent of the local audit history; the merge intentionally keeps the audited library tree and excludes the upstream CLI and agent files. Pin this audited commit in consumers until subsequent versions are reviewed.
